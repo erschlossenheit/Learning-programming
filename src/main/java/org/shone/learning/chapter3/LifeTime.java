@@ -11,6 +11,8 @@ public class LifeTime {
 
             y = 100;
             System.out.println("now y = " + y);
+
+            int b = (int) 20.9;
         }
     }
 }
