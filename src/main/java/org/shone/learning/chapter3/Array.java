@@ -1,4 +1,4 @@
-package org.shone.learning.chapter2;
+package org.shone.learning.chapter3;
 
 public class Array {
     public static void main(String[] args) {
@@ -16,6 +16,6 @@ public class Array {
         month_days[9] = 31;
         month_days[10] = 30;
         month_days[11] = 31;
-        System.out.println("In april " + month_days[3]);
+        System.out.println("In april " + month_days[3] + " days");
     }
 }
