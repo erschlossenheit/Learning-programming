@@ -17,10 +17,10 @@ public class BasicMath {
 
         System.out.println("Arithmetic operations at doubles");
         double da = 1 + 1;
-        double db = a * 3;
-        double dc = b / 4;
-        double dd = c - a;
-        double de = -d;
+        double db = da * 3;
+        double dc = db / 4;
+        double dd = dc - a;
+        double de = -dd;
 
         System.out.println("da = " + da);
         System.out.println("db = " + db);
