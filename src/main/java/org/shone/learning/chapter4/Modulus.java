@@ -1,4 +1,4 @@
-package org.shone.learning.chapter3;
+package org.shone.learning.chapter4;
 
 public class Modulus {
     public static void main(String[] args) {
