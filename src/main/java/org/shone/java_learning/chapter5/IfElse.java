@@ -1,6 +1,6 @@
-package org.shone.java_learning;
+package org.shone.java_learning.chapter5;
 
-public class сhapter5 {
+public class IfElse {
     public static void main(String[] args) {
         int month = 4;
         String season;
