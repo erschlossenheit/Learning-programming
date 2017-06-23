@@ -12,12 +12,15 @@ public class Main {
     }
 
     void run() {
-        try (Scanner in = new Scanner(System.in);
-             PrintWriter out = new PrintWriter(System.out);
+        try (
+            //Scanner in = new Scanner(System.in);
+            //PrintWriter out = new PrintWriter(System.out);
+            Scanner in = new Scanner(new FileReader("sum.in"));
+            PrintWriter out = new PrintWriter(new FileWriter("sum.out"));
         ) {
             solve(in, out);
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (IOException e) {
+            throw new Error(e);
         }
     }
 
