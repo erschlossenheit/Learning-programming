@@ -7,7 +7,6 @@ public class BrackLoop {
 
             System.out.println("i = " + i);
         }
-
         System.out.println("Loop was broken");
     }
 }
