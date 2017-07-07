@@ -4,4 +4,8 @@ class Box {
     double width;
     double heith;
     double depth;
+
+    double volume() {
+        return width * heith * depth;
+    }
 }
