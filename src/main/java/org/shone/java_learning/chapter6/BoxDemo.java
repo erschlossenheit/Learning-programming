@@ -1,11 +1,5 @@
 package org.shone.java_learning.chapter6;
 
-class Box {
-    double width;
-    double heith;
-    double depth;
-}
-
 public class BoxDemo {
     public static void main(String[] args) {
         Box mybox = new Box();
